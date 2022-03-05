@@ -1,0 +1,30 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "herramientas digitales para enseñar ciencias sociales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "nodemon src/"
+  },
+  "keywords": [
+    "nodejs",
+    "lms",
+    "herramientas",
+    "digitales"
+  ],
+  "author": "Johan Stived Osorio Velez",
+  "license": "MIT", 
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
