@@ -1,0 +1,8 @@
+URL=http://localhost
+PORTSERVE=3200
+# DATABASE CONFIG:
+HOSTDB=localhost
+PORTDB=3306
+USERDB=userdb
+PASSDB=passdb
+DATADB=database
