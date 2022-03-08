@@ -4,7 +4,7 @@
   "description": "herramientas digitales para enseñar ciencias sociales",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/"
   },
   "keywords": [
@@ -14,7 +14,7 @@
     "digitales"
   ],
   "author": "Johan Stived Osorio Velez",
-  "license": "MIT", 
+  "license": "MIT",
   "dependencies": {
     "connect-multiparty": "^2.2.0",
     "dotenv": "^10.0.0",

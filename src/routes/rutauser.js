@@ -8,7 +8,7 @@
 // Cargar Express:
 const express = require('express');
 // Cargar el control:
-const userControl = require('../controllers/usercontrol'); 
+const userControl = require('../controllers/controluser'); 
 // Cargar Router de express:
 const api = express.Router();
 
