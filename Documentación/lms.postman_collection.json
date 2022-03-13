@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "21dcf181-2133-4b7b-81f7-8e58fb6a699c",
+		"name": "lms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pruebas control de usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/api/testuser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"api",
+						"testuser"
+					]
+				},
+				"description": "### Control de usuario\nSe ha creado un punto de control de prueba de usuario,obtendremos un json con los datos de los  mensajes de estado y la fecha y hora actual"
+			},
+			"response": [
+				{
+					"name": "Pruebas control de usuario",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3200/api/testuser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3200",
+							"path": [
+								"api",
+								"testuser"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"Estado\": \"La petición se ha completado correctamente\",\n    \"prueba\": \"Accediendo a la ruta de prueba de Usuarios\",\n    \"HoraActual\": \"8:27:15 AM\",\n    \"feedback\": {\n        \"m200\": \"La petición se ha completado correctamente\",\n        \"m400\": \"Error de Registro: Se deben llenar los campos obligatorios\",\n        \"m401\": \"Petición Expirada!\",\n        \"m403\": \"La petición no se puede procesar, error de autenticación\",\n        \"m404\": \"No se han encontrado resultados\",\n        \"m405\": \"No se pudo seguir debido a errores de semántica\",\n        \"m408\": \"Se ha agotado el tiempo de para ejecutar la acción\",\n        \"m409\": \"Ya se encuentra registrado en la base de datos\",\n        \"m500\": \"Ha ocurrido un error en la petición a la base de datos, revise las conexiones\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Pruebas de control de dimensiones - test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/api/testdimension",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"api",
+						"testdimension"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pruebas de control de dimensiones - tipousuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/api/tipousuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"api",
+						"tipousuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pruebas de control de dimensiones - generos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/api/generos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"api",
+						"generos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

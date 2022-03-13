@@ -8,6 +8,6 @@ module.exports={
         port: process.env.PORTDB,
         user: process.env.USERDB,
         password: process.env.PASSDB,
-        database: process.env.DATADB,
+        database: process.env.DATADB
     }
 }

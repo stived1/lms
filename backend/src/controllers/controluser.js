@@ -9,7 +9,7 @@ function userTest(req, res){
     let ahora = momento().format('LTS');
     res.status(200).send({
         Estado : estados.m200,
-        prueba: 'Accediendo a la ruta de prueba de Usuarios',
+        prueba : 'Accediendo a la ruta de prueba de Usuarios',
         HoraActual : ahora,
         feedback : estados
     })
