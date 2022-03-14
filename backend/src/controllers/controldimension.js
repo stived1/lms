@@ -30,7 +30,7 @@ function getTipoUser(req,res){
         if (err) throw err;                                     // Si existe error en la momento de ejecutar la consulta, veremos este error
         if(tipousuario.length >0){                              // Si tenemos al menos un resultado lo mostramos en una doc json:
             return res.status(200).send({
-                lista : tipousuario
+                tipousuario : tipousuario
             });
         }else {
             return res.status(404).send({                       // Si no existe resultado, mostramos error 404
@@ -48,7 +48,7 @@ function getTipoDocumento(req,res){
         if (err) throw err;                                     // Si existe error en la momento de ejecutar la consulta, veremos este error
         if(tipodocu.length >0){                                 // Si tenemos al menos un resultado lo mostramos en una doc json:
             return res.status(200).send({
-                lista : tipodocu
+                tiposdocumento : tipodocu
             });
         }else {
             return res.status(404).send({                       // Si no existe resultado, mostramos error 404
@@ -66,7 +66,7 @@ function getGenero(req,res){
         if (err) throw err;                                     // Si existe error en la momento de ejecutar la consulta, veremos este error
         if(generos.length >0){                                  // Si tenemos al menos un resultado lo mostramos en una doc json:
             return res.status(200).send({
-                lista : generos
+                generos : generos
             });
         }else {
             return res.status(404).send({                       // Si no existe resultado, mostramos error 404
